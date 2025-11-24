@@ -1,0 +1,41 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Directorios de datos (entrada/salida)
+input/
+output/
+
+# Modelos (si son grandes o generados)
+models/
+
+# Variables de entorno sensibles
+.envrc
+.env
+*.env
+
+# Bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+
+# Caché y archivos temporales
+*.tmp
+*.temp
+*.log
+*.cache
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
